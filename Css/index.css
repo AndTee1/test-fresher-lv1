@@ -1,0 +1,317 @@
+@font-face {
+    font-family:inter;
+    src:url('../design/inter.ttf');
+    weight: 300, 500, 700;
+   }
+
+.bg-r{
+    background: url('../images/pattern-bg.svg') no-repeat;
+    min-height: 357px;
+    background-size: 397px 357px;
+    margin-left: 460px;
+}
+img{
+    margin-top: 36px;
+    margin-left: 502px;
+    width: 33%;
+    box-shadow:  1px 30px 20px  rgba(0, 0, 0 , 0.5);
+}
+.bg-blayer{
+    background: url('../images/pattern-quotes.svg') no-repeat;
+    min-height: 100px;
+    background-size: 70px 50px;
+    width: 100%;
+    position: absolute;
+    left: 205px;
+    top:111px;
+}
+.main{
+    position: relative;
+    margin: auto;
+    width: 70%;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow:  5px 5px 10px  rgba(240, 240, 240 , 0.5);
+    min-height: 450px;
+}
+.cover{
+    position: relative;
+    width: 100%;
+    /* margin-left: 293px; */
+    min-width: 841px;
+    min-height: 425px;
+}
+.text{
+    position: absolute;
+    font-size: 20px;
+    top: 140px;
+    width: 396px;
+    left: 139px;
+    font-family: inter;
+}
+.text-1{
+    position: absolute;
+    font-size: 15px;
+    top: 290px;
+    width: 381px;
+    font-family: inter;
+    left: 139px;
+}
+.bg-glayer{
+    background: url(../images/pattern-curve.svg) no-repeat;
+    background-size: 411px 94px;
+    min-height: 94px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 355px;
+}
+.text-john{
+    position: absolute;
+    font-size: 20px;
+    top: 140px;
+    width: 410px;
+    font-family: inter;
+    left: 139px;
+
+}
+.carousel{
+    position: absolute  !important;
+    left: 10px;
+}
+.textstrong{
+    color: hsl(240, 38%, 20%);
+    font-weight: bold;
+}
+.textgray{
+    color: hsl(240, 18%, 77%);
+}
+p{
+    margin: 0 !important;
+}
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../images/header-bg-2.svg) no-repeat;
+    /* background-color: rgba(76, 175, 80, 0.1); */
+    
+    
+}
+.carousel-indicators li{
+    width: 20px !important;
+    height: 20px !important;
+}
+.prev{
+    background: url('../images/icon-prev.svg')  no-repeat;
+}
+.next{
+    background: url('../images/icon-next.svg') no-repeat;
+}
+.bg-t{
+    min-height: 25px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: -35px !important;
+}
+.carousel-indicators{
+    margin-left: 10% !important;
+    bottom: 115px  !important;
+}
+.display{
+    display: none;
+}
+/* respionsive */
+@media screen and (max-width: 1440px){
+    .bg-r{
+        background: url('../images/pattern-bg.svg') no-repeat;
+        min-height: 357px;
+        background-size: 397px 357px;
+        margin-left: 460px;
+    }
+    img{
+        margin-top: 36px;
+        margin-left: 502px;
+        width: 33%;
+        box-shadow:  1px 30px 20px  rgba(0, 0, 0 , 0.5);
+    }
+    .bg-blayer{
+        background: url('../images/pattern-quotes.svg') no-repeat;
+        min-height: 100px;
+        background-size: 70px 50px;
+        width: 100%;
+        position: absolute;
+        left: 205px;
+        top:111px;
+    }
+    .main{
+        position: relative;
+        margin: auto;
+        width: 70%;
+        margin-top: 70px;
+        background-color: white;
+        box-shadow:  5px 5px 10px  rgba(240, 240, 240 , 0.5);
+        min-height: 450px;
+    }
+    .cover{
+        position: relative;
+        width: 100%;
+        /* margin-left: 293px; */
+        min-width: 841px;
+        min-height: 425px;
+    }
+    .text{
+        position: absolute;
+        font-size: 20px;
+        top: 140px;
+        width: 396px;
+        left: 139px;
+        font-family: inter;
+    }
+    .text-1{
+        position: absolute;
+        font-size: 15px;
+        top: 290px;
+        width: 381px;
+        font-family: inter;
+        left: 139px;
+    }
+    .bg-glayer{
+        background: url(../images/pattern-curve.svg) no-repeat;
+        background-size: 411px 94px;
+        min-height: 94px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 355px;
+    }
+    .text-john{
+        position: absolute;
+        font-size: 20px;
+        top: 140px;
+        width: 410px;
+        font-family: inter;
+        left: 139px;
+    
+    }
+    .carousel{
+        position: absolute  !important;
+        left: 10px;
+    }
+    .textstrong{
+        color: hsl(240, 38%, 20%);
+        font-weight: bold;
+    }
+    .textgray{
+        color: hsl(240, 18%, 77%);
+    }
+    p{
+        margin: 0 !important;
+    }
+    body{
+        background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(../images/header-bg-2.svg) no-repeat;
+        /* background-color: rgba(76, 175, 80, 0.1); */
+        
+        
+    }
+    .carousel-indicators li{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .prev{
+        background: url('../images/icon-prev.svg')  no-repeat;
+    }
+    .next{
+        background: url('../images/icon-next.svg') no-repeat;
+    }
+    .bg-t{
+        min-height: 25px;
+    }
+    ol, ul {
+        margin-top: 0;
+        margin-bottom: -35px !important;
+    }
+    .carousel-indicators{
+        background-color: white;
+        max-width: 65px;
+        border-radius: 8px;
+        margin-left: 10% !important;
+        bottom: 119px !important;
+        height: 25px;
+    }
+    .display{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px){
+    .carousel{
+        width: 100%;
+    }
+    .carousel-indicators {
+        background-color: white;
+        max-width: 50px;
+        border-radius: 8px;
+        left: 800px;
+        margin-left: -10% !important;
+        bottom: 206px !important;
+        height: 20px;
+    }
+    .bg-glayer{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        margin-top: 0px;
+        height: 490px;
+    }
+    .bg-r{
+        margin-left: 43px;
+        min-height: 267px;
+        background-size: 307px 267px;
+    }
+    body{
+        background: none;
+    }
+    img{
+        margin-top: 26px;
+        margin-left: 81px;
+        width: 26%;
+        box-shadow: none;
+    }
+    .text,
+    .text-1,
+    .text-john{
+        text-align: center;
+    }
+    .text{
+        left: 50px;
+        top:280px;
+        font-size: 14px;
+        width: 275px;
+        margin: auto;
+    }
+    .text-john{
+        left: 50px;
+        top:280px;
+        font-size: 14px;
+        width: 285px;
+        margin: auto;
+    
+    }
+    .text-1{
+        left: -10px;
+        top:385px;
+        font-size: 14px;
+    
+    }
+    .display{
+        display: block;
+    }
+    .bg-t{
+        min-height: 10px;
+    }
+    .bg-blayer{
+        background-size: 55px 35px;
+        position: absolute;
+        left: 150px;
+        top: 261px;
+    }
+}
