@@ -251,8 +251,12 @@ ol, ul {
         border-radius: 8px;
         left: 800px;
         margin-left: -10% !important;
-        bottom: 206px !important;
+        bottom: 270px !important;
         height: 20px;
+        
+    }
+    .carousel-inner{
+        min-height: 490px;
     }
     .bg-glayer{
         display: none;
@@ -260,7 +264,7 @@ ol, ul {
     .main{
         width: 100%;
         margin-top: 0px;
-        height: 490px;
+        height: 500px;
     }
     .bg-r{
         margin-left: 43px;
@@ -283,14 +287,14 @@ ol, ul {
     }
     .text{
         left: 50px;
-        top:280px;
+        top:320px;
         font-size: 14px;
         width: 275px;
         margin: auto;
     }
     .text-john{
         left: 50px;
-        top:280px;
+        top:320px;
         font-size: 14px;
         width: 285px;
         margin: auto;
@@ -298,7 +302,7 @@ ol, ul {
     }
     .text-1{
         left: -10px;
-        top:385px;
+        top:440px;
         font-size: 14px;
     
     }
@@ -312,6 +316,6 @@ ol, ul {
         background-size: 55px 35px;
         position: absolute;
         left: 150px;
-        top: 261px;
+        top: 300px;
     }
 }
